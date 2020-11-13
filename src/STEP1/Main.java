@@ -15,7 +15,7 @@ public class Main {
 		Double inputPrice =Inputuser.nextDouble();
 		Inputuser.close();
 		Order order =new Order(inputQuantity,inputPrice);	
-		System.out.printf(" \n The total price of your order is %.2f \n ",order.calculateTotalPrice(order.getQuantity(), order.getUnitprice()));
+		System.out.printf(" \n The total price of your order is %.2f \n ",order.calculateTotalPrice());
 		}
 		catch (java.util.InputMismatchException e) {
 			System.out.println("please check your input informations ");

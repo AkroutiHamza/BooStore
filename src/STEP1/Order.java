@@ -23,7 +23,7 @@ public void setUnitprice(Double unitprice) {
 	Unitprice = unitprice;
 }
 
-double calculateTotalPrice(int quantity,double unitprice) {
+double calculateTotalPrice() {
 	return quantity*unitprice ;
 }
 @Override

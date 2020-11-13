@@ -24,7 +24,7 @@ public void setUnitprice(Double unitprice) {
 }
 
 double calculateTotalPrice() {
-	return quantity*unitprice ;
+	return Quantity*Unitprice ;
 }
 @Override
 public String toString() {

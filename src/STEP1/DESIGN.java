@@ -1,7 +1,7 @@
 package STEP1;
 /*
  * @author Hamza_Akrouti ;
- * Class_for_designed_the_console_output_color
+ * Class_for_designing_the_console_output_color
  * NOTICE: this Class used when you Execute Project with Cmd
  */
 public class DESIGN {
